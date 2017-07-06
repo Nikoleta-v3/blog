@@ -9,7 +9,7 @@ this summer the first summer school on Network Theory. The summer school took pl
 the 19th to the 23th of June in the small city of Roscoff in France.
 
 <p align="center">
-  <img src="{{site.baseurl}}/assets/images/summer_school_two.jpg" width="600" height="400">
+  <img src="{{site.baseurl}}/assets/images/summer_school_two.jpg" style='height: 100%; width: 90%; object-fit: contain'>
 </p>
 
 The aim of the summer school was to expose early career PhD students to
