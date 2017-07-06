@@ -38,7 +38,7 @@ Each topic was delivered over six hours of lecture.
 The schedule of the summer school was   arranged such   that each speaker
 could present over two or three days. This allowed us to discuss or even
 search about the topic before attending the next lecture. The full program
-was posted on the summer school's web site (https://sites.google.com/site/cigneworkshop2017/home/programme) .
+was posted on the summer school's web site (<https://sites.google.com/site/cigneworkshop2017/home/programme>).
 
 Each day lunch and dinner were served in the hotel which was a 15 minute
 walk away from the lectures building.  The walks were a great opportunity
