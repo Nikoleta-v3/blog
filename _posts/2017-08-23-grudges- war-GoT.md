@@ -115,6 +115,10 @@ explored and visualised. Such as the winner and the winning score.
   <img src="{{site.baseurl}}/assets/images/boxplot.png" style='height: 60%; width: 100%; object-fit: contain'>
 </p>
 
+<p align="center">
+<i>may contain spoiler for Game of Thrones season 7</i>
+</p>
+
 <p align="justify">
 Lastly regarding the recent events of <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones</a> 
 season 7, should the North alliance work with the South to defeat the Night 
