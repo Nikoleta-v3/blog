@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Grudges, War and Game of Thrones"
+comments: true
 ---
 
 <p align="justify">

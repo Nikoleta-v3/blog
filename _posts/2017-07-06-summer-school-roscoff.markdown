@@ -2,6 +2,7 @@
 layout: post
 title:  "Summer School on Network Theory"
 date:   2017-07-06 13:03:03 +0100
+comments: true
 ---
 
 The Communication and Information in Games on NEtworks (CIGNE) research group organised
