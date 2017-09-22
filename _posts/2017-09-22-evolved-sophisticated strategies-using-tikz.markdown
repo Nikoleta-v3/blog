@@ -219,7 +219,7 @@ actions of the strategies source code corresponded with the Tikz code.
 <p align="justify">
 All the work described in this blog was made possible due to an open source
 library called the Axelrod Python Library,
-<a href="url">http://axelrod.readthedocs.io/en/stable</a>. I would like
+<a href="url">http://axelrod.readthedocs.io/</a>. I would like
 to thank the co authors of the papers mentioned in this blogs for making
 me part of this research,
 </p>
