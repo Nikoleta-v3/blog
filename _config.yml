@@ -10,6 +10,7 @@ plus_username: "+NikoletaGlynatsi"
 # Build settings
 markdown: kramdown
 theme: minima
+syntax_highlighter: rouge
 sass:
   sass_dir: _sass
 gems:
