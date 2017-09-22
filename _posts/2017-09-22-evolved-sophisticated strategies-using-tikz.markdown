@@ -2,7 +2,7 @@
 layout: post
 title:  "Representing Evolved Sophisticated strategies using Tikz"
 date:   2017-09-22
-comments: false
+comments: true
 ---
 
 <p align="justify">
