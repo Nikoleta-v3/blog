@@ -117,9 +117,6 @@ layouts</a>.
              [6,  6], [6, 6,],
              [7, 7],  [7, 5]]
 >>> G.add_edges_from(edges)
-
->>> %matplotlib inline
-
 >>> pos = nx.shell_layout(G)
 >>> nx.draw(G, pos=pos, with_labels = True)
 
