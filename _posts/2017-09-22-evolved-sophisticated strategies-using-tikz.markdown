@@ -234,4 +234,4 @@ me part of this research,
 <b>Bonus:</b>
 See Vince Knight’s <a href="http://vknight.org/unpeudemath/math/2017/07/28/sophisticated-ipd-strategies-beat-simple-ones.html">
 blog post</a> and Marc Harper’s <a href="http://marcharper.codes/2017-07-31/axelrod.html">
-blog post.</a>.
+blog post</a>.
