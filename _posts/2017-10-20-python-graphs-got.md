@@ -26,11 +26,11 @@ It is built upon the article
 Networks of Thrones</a>, by Andrew Beveridge and Jie Shan. In their work
 they created a network for each of the five books in the series of
 <a href="http://www.georgerrmartin.com/book-category/">a song of Ice and Fire</a>.
-Each note of the network corresponds to a character whose name (or nickname)
+Each node of the network corresponds to a character whose name (or nickname)
 is mentioned within the book.  If two character names (or nicknames) appeared
 within 15 words an edge is added to connect these two characters. An edge
 weight was also applied based on the number of interactions of the characters.
-The data are open and accessible on
+The data is open and accessible on
 <a href="https://github.com/mathbeveridge/asoiaf">Beveridge’s Github profile</a>.
 </p>
 
@@ -79,13 +79,13 @@ central character of a Game of Thrones?</b>
 In graph theory and network analysis, this can be thought as the most
 central node. In order to verify the most central characters several
 centrality measures, available within networkx, will be used.
-<b> Degree centrality</b>, corresponds to the number of links connect to
-another node.
+<b> Degree centrality</b>, corresponds to the number of links connecting
+it to another node.
 </p>
 
 {% highlight python %}
 >>> central_characters = sorted(nx.degree_centrality(G).items(),
-...                             key=lambda x:x[1], reverse=True)[0:10] central_characters
+...         key=lambda x:x[1], reverse=True)[0:10] central_characters
 {% endhighlight %}
 
 <p align="justify">
@@ -113,7 +113,7 @@ value between them?
 <p align="justify">
 Let us look at a second measure the <b>betweenness centrality</b>, both weighted
 and unweighted. The betweenness centrality for each node is the number of
-the shortest path that pass through the node.
+the shortest paths that pass through the node.
 </p>
 
 {% highlight python %}
@@ -143,9 +143,9 @@ Lannister is third.
 </p>
 
 <p align="justify">
-Still not convinced about the characters importance? A third measure is
+Still not convinced about the characters' importance? A third measure is
 examined, that is the <a href="https://www.sci.unich.it/~francesc/teaching/network/pagerank">
-Pagerank centrality</a>, is centrality measured originally used by Google.
+Pagerank centrality</a>, which is a centrality measured originally used by Google.
 </p>
 
 {% highlight python %}
@@ -172,7 +172,7 @@ Thus unfortunately a general rule can not be applied. But based on the
 three measures that have been examined a character that is frequently ranked
 first is the honourable Eddard Stark! Having read the book and watched
 the TV series it is safe to argue that Eddard Stark is in fact the most
-central character of a Game of Thrones book or season 1.
+central character of the book A Game of Thrones or season 1.
 </p>
 
 <p align="justify">
@@ -227,7 +227,7 @@ Well, no. At least not for such big networks as it can be seen here,
 
 <p align="justify">
 Networkx is a tool, for analysis and not for visualization, though it
-works very well with softwares that specialise on visualising networks,
+works very well with software that specialise on visualising networks,
 so no hard feelings.
 </p>
 
