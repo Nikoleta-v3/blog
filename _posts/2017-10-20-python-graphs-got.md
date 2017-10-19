@@ -142,7 +142,7 @@ Lannister is third.
   <img src="{{site.baseurl}}/assets/images/betweeness.jpg" style='height: 60%; width: 80%; object-fit: contain'>
 </p>
 
-<p align="center">
+<p align="justify">
 Still not convinced about the characters importance? A third measure is
 examined, that is the <a href="https://www.sci.unich.it/~francesc/teaching/network/pagerank">
 Pagerank centrality</a>, is centrality measured originally used by Google.
