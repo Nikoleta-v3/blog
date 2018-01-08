@@ -88,7 +88,7 @@ interpretations; such as engaging the rural communities that live with wildlife.
 </p>
 
 Essentially, our results for these model have shown that selective behaviour amongst
-poacher is unstable unless there is a big incentive.
+poachers is unstable unless there is a big incentive.
 
 The work described in this post has managed to be, in more details, developed
 into an academic article. The article is now on a preprint server and under review
@@ -96,8 +96,8 @@ in order to be published. The preprint can be found on arXiv: <https://arxiv.org
 
 The source code for all the numerical experiments held are online and available
 on Github: <https://github.com/drvinceknight/Evolutionary-game-theoretic-Model-of-Rhino-poaching>.
-Note that all source code has been developed using best practice techniques, thus
-the code has been properly  documented and automatically tested.
+Note that all source code has been developed using best practice, thus
+the code has been properly documented and automatically tested.
 
 To finish off I would like to thank the co-authors for their support and explaining
 to me that alpha is not a: 
