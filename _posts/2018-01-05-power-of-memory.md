@@ -191,5 +191,5 @@ theorems to memory one players! This will be done with the assistance of
 [resultant theory](https://en.wikipedia.org/wiki/Resultant), which will allow me
 to solve multivariate systems, but I will leave this for another blog post.
 
-**p.s.** This blog post accompanied my poster [The power of memory](https://nikoleta-v3.github.io/talks/posters//2018-01-08-SIAM/poster.pdf)
+**p.s.** This blog post accompanies my poster [The power of memory](https://nikoleta-v3.github.io/talks/posters//2018-01-08-SIAM/poster.pdf)
 which was presented in the SIAM UKIE Annual Meeting 2018.
