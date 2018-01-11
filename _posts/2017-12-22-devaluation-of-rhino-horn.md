@@ -100,7 +100,7 @@ Note that all source code has been developed using best practice, thus
 the code has been properly documented and automatically tested.
 
 To finish off I would like to thank the co-authors for their support and explaining
-to me that alpha is not a: 
+to me that alpha is not a:
 
 - [Tamsin E. Lee](https://twitter.com/t_e_lee)
 - [Vincent Knight](https://twitter.com/drvinceknight)

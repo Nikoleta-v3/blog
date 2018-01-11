@@ -24,9 +24,9 @@ This can be described by the game matrix:
 In the 1980's, a political scientist called Robert Axelrod carried out a
 [computer tournament](https://science.sciencemag.org/content/211/4489/1390)
 of the [iterated prisoner's dilemma](https://www.investopedia.com/terms/i/iterated-prisoners-dilemma.asp).
-In the iterated version of the game the players interact for an finite number of
-times and they are allowed access to the full history of the matches. Player
-can chose the size of history which they are going to use in deciding their
+In the iterated version of the game the players interact for a finite number of
+times and they are allowed access to the full history of the matches. Players
+can choose the size of history which they are going to use in deciding their
 next move.
 
 <p align="center">
@@ -37,7 +37,7 @@ In 2012 [Press and Dyson](https://www.pnas.org/content/109/26/10409.abstract)
 studied the iterated prisoner's dilemma and focused on strategies that made use
 of the history of the previous round only. This set of strategies are called
 **memory one** strategies. When we only take into account a single turn of
-the game there are only four possible states that our player could possible be in.
+the game there are only four possible states that our player could possibly be in.
 These are \\(CC, CD, DC\\) and \\(DD\\).
 
 A memory one strategy is denoted by the probabilities of cooperating after
@@ -45,7 +45,7 @@ each of these states, \\(p = (p_1, p_2, p_3, p_4) \in R_{[0,1]} ^ 4\\).
 
 Press and Dyson found a way for a memory one opponent \\(p\\) to manipulate an
 opponent \\(q\\) and they called these "manipulative" strategies, **zero determinant** strategies.
-Moreover, Press and Dyson stated that in a two players interaction,
+Moreover, Press and Dyson stated that in a two player interaction,
 a player playing a zero determinant strategy can outdo any longer memory strategy.
 Concluding that in the iterated prisoner's dilemma a longer memory size than 1
 is not advantageous.
@@ -63,8 +63,8 @@ question:
 
 A match between two memory one players \\(p\\) and \\(q\\) can be modelled as a
 stochastic process, where the players move from state to  state. More specifically,
-it can be model by the use of a [Markov chain](https://en.wikipedia.org/wiki/Markov_chain),
-which is described by matrix \\(M\\).
+it can be modelled by the use of a [Markov chain](https://en.wikipedia.org/wiki/Markov_chain),
+which is described by a matrix \\(M\\).
 
 \\[M =
 \begin{bmatrix}
@@ -85,7 +85,7 @@ multiply the steady states of \\(M\\) with the payoffs of the game matrix.
 
 More specifically, the first result discussed here is that the utility of player
 \\(p\\) against an opponent \\(q\\), denoted as \\(u_q(p)\\), can be
-written in compact way:
+written in a compact way:
 
 \\[u_q(p) = \frac{\frac{1}{2}p^TQ + c^Tp + a}
             {\frac{1}{2}p^T\bar{Q} + \bar{c}^Tp + \bar{a}}\\]
@@ -101,10 +101,10 @@ problem:
 \\[ max_{q}: u_q(p) \\]
 \\[st: \\ p \in\mathbb{R}_{[0,1]}^{4}\\]
 
-Solving analytically a maximisation problem of \\(16\\) can be proven to be
-complicated. Thus in this blog post and as a second part of my work I considered
-a constrained version of the above problem. This was mainly done to get a better
-understanding of how to tackle the bigger problem.
+Obtaining an analytical solution to this problem is not immediate. Thus in this
+blog post and as a second part of my work I considered a constrained version of
+the above problem. This was mainly done to get a better understanding of how to
+tackle the bigger problem.
 
 More specifically, the constrained problem explored here is that of a set of memory one
 strategies where the transition probabilities of each state are the same. These
@@ -118,7 +118,7 @@ Now our optimisation problem can be re-written as:
 where \\(n_2, n_1, n_0, d_1, d_0\\) are constants defined with the transition
 probabilities of the opponent's transition probabilities \\(q_1, q_2, q_3, q_4\\).
 
-Determining \\(p^*\\) for a given \\(q\\) becomes trivial. It can be proven that
+Determining \\(p^*\\) for a given \\(q\\) becomes simpler. It can be proven that
 obtaining the optimal random behaviour \\(p ^ *\\) reduces to a search over a
 small finite set. This is described by the following theorem:
 
@@ -170,7 +170,7 @@ and
 
 Note the size of candidate solutions is \\( 1 \leq\|S_{q(i)}\| \leq 2N + 2\\).
 
-Computer trials have been also be run to test the above theorem. The results are
+Computer trials have been also been run to test the above theorem. The results are
 given by,
 
 <p align="center">
@@ -183,11 +183,11 @@ Secondly and more importantly it is shown that a strategy with memory greater
 than 1 (evolved) out performs the optimal purely random player.
 
 This where the limitations of memory one lies. In interactions with multiple
-opponent it can proven that having a larger memory, essentially being a bit
+opponent it can shown that having a larger memory, essentially being a bit
 smarter, can be advantageous.
 
 The next step of this work, which is currently in progress, is to generalized both
-theorems to memory one players! This will done with the assistance of the
+theorems to memory one players! This will be done with the assistance of
 [resultant theory](https://en.wikipedia.org/wiki/Resultant), which will allow me
 to solve multivariate systems, but I will leave this for another blog post.
 
