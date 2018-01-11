@@ -9,6 +9,8 @@ plus_username: "+NikoletaGlynatsi"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 theme: minima
 syntax_highlighter: rouge
 sass:
