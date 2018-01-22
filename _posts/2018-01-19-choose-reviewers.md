@@ -11,7 +11,7 @@ stressful. Exciting because you realise that a piece of research is finally done
 but also stressful because you have to go through a check list and make sure
 your paper fits the journal's guidelines.
 
-Long story short, while recently submitting a paper, one of the required fields
+Long story short, while doing this, one of the required fields
 of the journal was to propose three possible reviewers. As an early career
 researcher I do not exactly have a list of recommended reviewers up my sleeve.
 Thus there were only two things I could really do:
@@ -38,11 +38,11 @@ That being a very large number of people to  check manually,  I needed to reduce
 the list based on the reviewers' area of research. My second task was to collect
 data on my reviewers in order to gain insights in their research.
 
-For my second task I will be using an open source project called [Arcas](https://github.com/ArcasProject/Arcas),
+For my second task I will be using my open source project called [Arcas](https://github.com/ArcasProject/Arcas),
 Arcas allows me to collect articles' meta data by specifying just a single keyword.
 
 Using the following few lines of code I am able to collect up to 100 articles
-that my reviewers have written and published on the journal [Springer](http://www.springer.com/gb/).
+that my reviewers have written and published in the journal [Springer](http://www.springer.com/gb/).
 Arcas allows you to ping 5 different sources but for the purpose of this work a
 single source, more specifically Springer works just fine.
 
@@ -72,8 +72,8 @@ single source, more specifically Springer works just fine.
 ...           start += 10
 {% endhighlight %}
 
-Once the data have been collected I need to narrow down the reviewers that can
-understand the science? of my work or its’ applications. For my third task
+Once the data has been collected I need to narrow down the reviewers that can
+understand the science of my work or its’ applications. For my third task
 I used the library [pandas](https://pandas.pydata.org/)
 to check whether the keywords of my paper exist within any of the abstracts of
 my reviewers' articles.
@@ -106,5 +106,5 @@ histogram.
 </p>
 
 A manual check of the reviewers that stand out must be done as well. I am not
-implying that one should follow the histogram by heart but it was a fast and
+implying that one should strictly follow the histogram but it was a fast and
 fun way of reducing a list of 1273 people down to 20.
