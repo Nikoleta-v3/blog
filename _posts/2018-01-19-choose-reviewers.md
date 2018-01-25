@@ -21,7 +21,7 @@ Thus there were only two things I could really do:
 
 I knew that contacting my co-authors would take some time, thus option 2 was selected.
 From here onwards, I will be using the programming language Python to explain a
-series of simple steps that I followed in order to choose my reviewers!
+series of steps that I followed in order to choose my reviewers!
 The first thing needed was a list of potential reviewers. This was easily retrieved
 from the journal's website, so I copied it and saved it as a `txt` file.
 
@@ -73,7 +73,7 @@ single source, more specifically Springer works just fine.
 {% endhighlight %}
 
 Once the data has been collected I need to narrow down the reviewers that can
-understand the science of my work or its’ applications. For my third task
+understand the science of my work or its applications. For my third task
 I used the library [pandas](https://pandas.pydata.org/)
 to check whether the keywords of my paper exist within any of the abstracts of
 my reviewers' articles.
