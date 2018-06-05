@@ -32,7 +32,7 @@ Dhobasheni Newman and Jennifer Pike. You can follow the event on twitter [@SS_Ca
 
 Finally this year my department, the School of MATHS of Cardiff University, did not
 fail to participate in the event. I myself have been one of this year's speakers
-and my PhD advisor [Vince Knight](https://twitter.com/drvinceknight) was my assistant.
+and my PhD supervisor [Vince Knight](https://twitter.com/drvinceknight) was my assistant.
 A total of five other PhD students volunteered for the day:
 
 - [Emma Aspland](https://www.cardiff.ac.uk/people/research-students/view/967970-)
